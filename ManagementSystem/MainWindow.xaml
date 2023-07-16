@@ -1,0 +1,46 @@
+﻿<Window x:Class="ManagementSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManagementSystem" xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Height="425" Width="600"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="CanResizeWithGrip"
+        AllowsTransparency="True"
+        Background="Transparent">
+
+    <Window.DataContext>
+        <local:MainWindowVM/>
+    </Window.DataContext>
+
+    <Border BorderBrush="#F1C40F" BorderThickness="1">
+        <Grid Background="#212121">
+            <StackPanel Orientation="Vertical">
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Height="30">
+                    <Button Click="Minimize" Style="{StaticResource ControlButton1}">
+                        <Icon:PackIconMaterial Kind="WindowMinimize" VerticalAlignment="Center" Width="12"/>
+                    </Button>
+                    <Button Click="Quit" Style="{StaticResource ControlButton1}">
+                        <Icon:PackIconMaterial Kind="Close" VerticalAlignment="Center" Width="12"/>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel>
+                    <Image Margin="0 30 0 20" Source="/Images/study-icon.png" Width="230" Height="168"/>
+                    <TextBlock Text="STUDENT MANAGEMENT SYSTEM" Margin="0 20 0 0" FontSize="30" TextAlignment="Center" Foreground="#E74C3C" FontWeight="UltraBold"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+                    <Button Content="ADMIN" FontSize="20" Width="120" Height="40" HorizontalAlignment="Center" Margin="30" Command="{Binding AdminCommand}" Style="{StaticResource MainButton}"/>
+                    <Button Content="TEACHER" FontSize="20" Width="120" Height="40" HorizontalAlignment="Center" Margin="30" Command="{Binding AcademicLoginCommand}" Style="{StaticResource MainButton}"/>
+                    <Button Content="STUDENT" FontSize="20" Width="120" Height="40" HorizontalAlignment="Center" Margin="30" Command="{Binding StudentLoginCommand}" Style="{StaticResource MainButton}"/>
+                </StackPanel>
+            </StackPanel>
+
+        </Grid>
+    </Border>
+
+</Window>

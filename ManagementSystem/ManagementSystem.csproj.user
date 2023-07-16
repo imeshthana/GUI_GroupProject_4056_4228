@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AdminWindowFolder\AddTeacherWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminWindowFolder\AdminLoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminWindowFolder\AdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentsWindowFolder\StudentLoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentsWindowFolder\StudentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherWindowFolder\AddGradeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherWindowFolder\AddStudentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherWindowFolder\TeacherLoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeacherWindowFolder\TeacherWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AdminWindowFolder\AddTeacherWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminWindowFolder\AdminLoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminWindowFolder\AdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentsWindowFolder\StudentLoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentsWindowFolder\StudentWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherWindowFolder\AddGradeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherWindowFolder\AddStudentWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherWindowFolder\TeacherLoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeacherWindowFolder\TeacherWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
