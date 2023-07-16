@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EFTuhQ/+4x2R3joGvO0txu7pvF+pb3qpUTnEtYHhaQe1OGUzSnm3EfF092gbiD8UfgdUaopGjMB0VqT5PxBeyw==",
+  "dgSpecHash": "3dxxZ7PuOCTvHcDPIUVHzHOJaaXYFQXZM4TBhOcBEY24SMCo7ZtNOM0LtWNXAOvu0oW00kByiASpIMrn8zC1TQ==",
   "success": true,
-  "projectFilePath": "D:\\ManagementSystem\\ManagementSystem\\ManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\GUI_GroupProject_4056_4228\\ManagementSystem\\ManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

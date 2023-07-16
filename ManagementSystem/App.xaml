@@ -4,33 +4,7 @@
              xmlns:local="clr-namespace:ManagementSystem"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style x:Key="ControlButton" TargetType="Button">
-            <Setter Property="Margin" Value="8 2"/>
-            <Setter Property="Width" Value="40"/>
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Foreground" Value="DarkBlue"/>
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}"
-                                Padding="5">
-                            <ContentPresenter HorizontalAlignment="Center"
-                                              VerticalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="darkBlue"/>
-                    <Setter Property="Foreground" Value="LightBlue"/>
-                </Trigger>
-                <Trigger Property="IsMouseCaptured" Value="True">
-                    <Setter Property="Background" Value="lightBlue"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
+
 
         <Style x:Key="ControlButton1" TargetType="Button">
             <Setter Property="Foreground" Value="#F1C40F"/>
@@ -217,7 +191,7 @@
                     <ControlTemplate TargetType="{x:Type Thumb}">
                         <Border x:Name="rectangle"
                                 SnapsToDevicePixels="True"
-                                Background="#008B8B"
+                                Background="#F1C40F"
                                 CornerRadius="3"
                                 Height="{TemplateBinding Height}"
                                 Width="{TemplateBinding Width}"/>

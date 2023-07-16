@@ -45,8 +45,8 @@
                     <StackPanel Orientation="Horizontal" >
                         <TextBlock Text="NAME" Width="120" FontSize="15" Margin="20 10 0 10" TextAlignment="Left" Style="{StaticResource NormalText}"/>
                         <TextBlock Text=":" Width="5" Margin="20 10 0 10"  Style="{StaticResource NormalText}"/>
-                        <TextBlock Text="{Binding Firstname}" Width="20" Margin="20 10 0 0" Style="{StaticResource NormalText}"/>
-                        <TextBlock Text="{Binding Lastname}" Margin="20 10 0 10"   Style="{StaticResource NormalText}"/>
+                        <TextBlock Text="{Binding Firstname}" Width="Auto" Margin="20 10 0 0" Style="{StaticResource NormalText}"/>
+                        <TextBlock Text="{Binding Lastname}" Margin="20 10 0 10"  Width="Auto" Style="{StaticResource NormalText}"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" >
                         <TextBlock Text="DATE OF BIRTH" Width="120" Margin="20 10 0 10" FontSize="15" TextAlignment="Left" Style="{StaticResource NormalText}"/>

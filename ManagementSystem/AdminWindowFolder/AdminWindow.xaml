@@ -76,27 +76,24 @@
 
                     <Border Grid.Row="1">
                         <ScrollViewer CanContentScroll="True">
-                            <StackPanel>
-                                <ListView ItemsSource="{Binding Teachers,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center"
-                            SelectedItem="{Binding SelectedTeacher}" Background="Transparent" Padding="0 10 0 0" BorderBrush="#D35400" BorderThickness="0 1 0 0">
-                                    <ListView.ItemTemplate>
-                                        <DataTemplate>
-                                            <Border Padding="0 5 0 5" Margin=" 0 5 0 5" CornerRadius="5" BorderBrush="Transparent" BorderThickness="1">
-                                                <StackPanel Orientation="Horizontal">
-                                                    <TextBlock Width="150" Text="{Binding UserName}" Style="{StaticResource ListView}"/>
+                            <ListView ItemsSource="{Binding Teachers,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center"
+                                        SelectedItem="{Binding SelectedTeacher}" Background="Transparent" Padding="0 10 0 0" BorderBrush="#D35400" BorderThickness="0 1 0 0">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Padding="0 5 0 5" Margin=" 0 5 0 5" CornerRadius="5" BorderBrush="Transparent" BorderThickness="1">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Width="150" Text="{Binding UserName}" Style="{StaticResource ListView}"/>
 
-                                                    <TextBlock Width="100" Text="{Binding PassWord}" Style="{StaticResource ListView}"/>
+                                                <TextBlock Width="100" Text="{Binding PassWord}" Style="{StaticResource ListView}"/>
 
-                                                    <TextBlock Width="150" Text="{Binding ModuleCode}" Style="{StaticResource ListView}"/>
+                                                <TextBlock Width="150" Text="{Binding ModuleCode}" Style="{StaticResource ListView}"/>
 
-                                                    <TextBlock Width="200" Text="{Binding ModuleName}" Style="{StaticResource ListView}"/>
-                                                </StackPanel>
-                                            </Border>
-                                        </DataTemplate>
-                                    </ListView.ItemTemplate>
-                                </ListView>
-
-                            </StackPanel>
+                                                <TextBlock Width="200" Text="{Binding ModuleName}" Style="{StaticResource ListView}"/>
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
                         </ScrollViewer>
                     </Border>
                 </Grid>
